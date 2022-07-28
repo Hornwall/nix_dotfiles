@@ -1,0 +1,38 @@
+[push]
+  default = upstream
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[user]
+  name = Hannes Hornwall
+  email = hannes@hornwall.me
+
+[merge]
+  defaultToUpstream = true
+	tool = nvim
+	tool = nvim
+	tool = --replace-all
+
+[alias]
+  ci = commit
+  st = status -sb
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  #ctags = !.git/hooks/ctags
+  p-r = "!devflow pr | hub -c core.commentChar=';' pull-request -oe -F -" 
+  co = checkout
+
+[github]
+  user = hornwall
+
+[init]
+  templatedir = ~/.git_template
+
+[pull]
+  rebase = true
+[core]
+	excludesFile = ~/.gitignore
+[fetch]
+	prune = true
