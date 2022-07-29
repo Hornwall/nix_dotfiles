@@ -38,7 +38,6 @@ in
 
   programs.tmux.enable = true;
   programs.rbenv.enable = true;
-  programs.asdf.enable = true;
   programs.nvm.enable = true;
   programs.hub.enable = true;
 }
