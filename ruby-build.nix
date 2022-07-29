@@ -2,7 +2,7 @@
 stdenv.mkDerivation {
   name = "ruby-build";
 
-  src = fetchFromGithub {
+  src = fetchFromGitHub {
     owner = "rbenv";
     repo =  "ruby-build";
     rev = "20220726";
