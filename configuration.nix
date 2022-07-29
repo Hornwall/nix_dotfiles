@@ -71,6 +71,7 @@
     kitty
     firefox
     git
+    ruby-build
     rbenv
   ];
 
