@@ -38,6 +38,6 @@ in
 
   programs.tmux.enable = true;
   programs.rbenv.enable = true;
-  programs.nvm.enable = true;
+  programs.nodenv.enable = true;
   programs.gh.enable = true;
 }
