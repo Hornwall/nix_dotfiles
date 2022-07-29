@@ -1,10 +1,12 @@
 { config, pkgs, ... }:
-
+let
+  dotfiles_path = "/home/hannes/.dotfiles";
+in
 {
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
   home.username = "hannes";
-  home.homeDirectory = "/home/hannes";
+  home.homeDirectory = "/home/hannes/.dotfiles";
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
@@ -18,7 +20,7 @@
 
   home.file = {
     ".config/" = {
-      source = "./dotfiles/config";
+      source = "${dotfiles_path}/dotfiles/config";
       recursive = true;
     };
   };
