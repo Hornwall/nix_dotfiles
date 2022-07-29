@@ -17,7 +17,7 @@
   home.stateVersion = "22.11";
 
   home.file = {
-    ".config" = {
+    ".config/" = {
       source = "./dotfiles/config";
       recursive = true;
     };
