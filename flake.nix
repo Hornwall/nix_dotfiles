@@ -15,7 +15,7 @@
 
     lib = nixpkgs.lib;
   in {
-    nixosConfiguration = {
+    nixosConfigurations = {
       hannes-nix = lib.nixosSystem {
         inherit system;
         modules = [ ./configuration.nix ];
