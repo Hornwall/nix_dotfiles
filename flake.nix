@@ -24,12 +24,10 @@
         inherit system;
         modules = [ 
           ./configuration.nix 
-          home-manager.nixOsModules.home-manager {
+          home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.hannes = {
-              imports = [ ./home.nix ];
-            };
+            home-manager.users.hannes = import ./home.nix;
           }
         ];
       };
