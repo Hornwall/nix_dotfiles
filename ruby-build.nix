@@ -1,6 +1,6 @@
 { stdenv, fetchFromGitHub, bash }:
 stdenv.mkDerivation {
-  name = "ruby-build"
+  name = "ruby-build";
 
   src = fetchFromGithub {
     owner = "rbenv";
