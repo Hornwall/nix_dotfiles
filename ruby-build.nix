@@ -6,7 +6,7 @@ stdenv.mkDerivation {
     owner = "rbenv";
     repo =  "ruby-build";
     rev = "20220726";
-    sha256 = "12i050vs35iiblxga43zrj7xwbaisv3mq55y9ikagkr8pj1vmq53"
+    sha256 = "12i050vs35iiblxga43zrj7xwbaisv3mq55y9ikagkr8pj1vmq53";
   };
 
   buildPhase = '''';
