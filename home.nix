@@ -37,6 +37,5 @@ in
   programs.home-manager.enable = true;
 
   programs.tmux.enable = true;
-  programs.rbenv.enable = true;
   programs.gh.enable = true;
 }
