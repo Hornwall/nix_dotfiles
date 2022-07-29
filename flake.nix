@@ -1,5 +1,5 @@
 {
-  description = "Hornwall NixOS setup"
+  description = "Hornwall NixOS setup";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
