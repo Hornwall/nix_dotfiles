@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./plasma.nix
+      ./ruby-build.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -71,8 +72,8 @@
     kitty
     firefox
     git
-    ruby-build
     rbenv
+    ruby-build
   ];
 
   nix = {
