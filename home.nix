@@ -35,4 +35,9 @@ in
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  programs.tmux.enable = true;
+  programs.rbenv.enable = true;
+  programs.asdf.enable = true;
+  programs.nvm.enable = true;
 }
