@@ -39,5 +39,5 @@ in
   programs.tmux.enable = true;
   programs.rbenv.enable = true;
   programs.nvm.enable = true;
-  programs.hub.enable = true;
+  programs.github-cli.enable = true;
 }
