@@ -23,6 +23,14 @@ in
       source = "${dotfiles_path}/dotfiles/config";
       recursive = true;
     };
+    ".zsh/" = {
+      source = "${dotfiles_path}/dotfiles/zsh";
+      recursive = true;
+    };
+    ".gitconfig".source = "${dotfiles_path}/dotfiles/gitconfig";
+    ".tmux.conf".source = "${dotfiles_path}/dotfiles/tmux.conf";
+    ".zsh_prompt".source = "${dotfiles_path}/dotfiles/zsh_prompt";
+    ".zshrc".source = "${dotfiles_path}/dotfiles/zshrc";
   };
 
   # Let Home Manager install and manage itself.
