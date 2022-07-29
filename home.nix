@@ -16,7 +16,7 @@
   # changes in each release.
   home.stateVersion = "22.11";
 
-  home.file.".config/".source = "./dotfiles/config/";
+  home.folder.".config".source = "./dotfiles/config";
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
